@@ -21,7 +21,7 @@ public class Bird {
     public Bird(int x, int y) {
         position = new Vector3(x, y, 0);
         velocity = new Vector3(0, 0, 0);
-        texture = new Texture("birdAnimation.png");
+        texture = new Texture("birdanimation.png");
         birdAnimation = new Animation(new TextureRegion(texture), 3, 0.5f);
         bounds = new Rectangle(position.x, position.y, texture.getWidth() / 3, texture.getHeight());
     }
